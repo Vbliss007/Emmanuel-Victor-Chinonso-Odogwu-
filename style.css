@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatGPT Login</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .login-container {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .login-container h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      font-size: 16px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 16px;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .signup {
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+
+    .signup a {
+      color: #0056ff;
+      text-decoration: none;
+    }
+
+    .or {
+      margin: 16px 0;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .social-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      margin-bottom: 12px;
+      background-color: white;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .social-btn img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .footer {
+      margin-top: 24px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    .footer a {
+      color: #888;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    @media (max-width: 480px) {
+      .login-container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Welcome back</h1>
+    <input type="email" class="input-field" placeholder="Email address" />
+    <button class="btn">Continue</button>
+    <div class="signup">Don't have an account? <a href="#">Sign up</a></div>
+    <div class="or">OR</div>
+    <div class="social-btn"><img src="https://img.icons8.com/color/48/google-logo.png" alt="Google" /> Continue with Google</div>
+    <div class="social-btn"><img src="https://img.icons8.com/color/48/windows10.png" alt="Microsoft" /> Continue with Microsoft Account</div>
+    <div class="social-btn"><img src="https://img.icons8.com/ios-filled/50/mac-os.png" alt="Apple" /> Continue with Apple</div>
+    <div class="social-btn"><img src="https://img.icons8.com/ios-filled/50/phone.png" alt="Phone" /> Continue with phone</div>
+
+    <div class="footer">
+      <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+</html>
